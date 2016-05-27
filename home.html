@@ -15,11 +15,11 @@
                      console.log("Connection closed.");
                  };
                  conn.onmessage = function (evt) {
-                     console.log("Connection closed.")
+                     console.log("Update received.")
                      preview.innerHTML = evt.data;
                  };
              } else {
-                 preview.innerHTML = "<div><b>Your browser does not support WebSockets.</b></div>";
+                 alert('Your browser does not support WebSockets');
              }
          });
         </script>
