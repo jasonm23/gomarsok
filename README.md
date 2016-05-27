@@ -1,9 +1,8 @@
-
 # GoMarSok
 
-#### Realtime Markdown Preview via WebSockets / Golang
+## Realtime Markdown Preview Server
 
-GoMarSok gives you live viewing of markdown → HTML as you type.
+GoMarSok gives you live viewing of markdown → HTML as you ~~type~~ send to the socket.
 
 #### You need GoMarSok if...
 
@@ -12,9 +11,7 @@ GoMarSok gives you live viewing of markdown → HTML as you type.
 - [x] You want to view your preview in multiple screens/devices at the
     same time, phone, tablet, desktop, projector? (via your local
     network or perhaps the internet)
-- [x] You want to use Emacs (or another websockets enabled editor) to
-    write your markdown.
-- [x] You're slightly mad.
+- [x] You use Emacs to write your markdown, and want to stay there.
 
 #### Dependencies
 
